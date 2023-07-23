@@ -1,0 +1,99 @@
+@media screen and (max-width: 767px){
+  .navbarContainer{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbarButtonContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbarButton{
+    color: var(--color-lightGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+
+  .navbarButtonSelected{
+    color: var(--color-darkGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .navbarContainer{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbarButtonContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbarButton{
+    color: var(--color-lightGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+
+  .navbarButtonSelected{
+    color: var(--color-darkGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1920px){
+  .navbarContainer{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+    border-radius: 10px;
+    display: flex;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .navbarButtonContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .navbarButton{
+    color: var(--color-lightGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+
+  .navbarButtonSelected{
+    color: var(--color-darkGray);
+    padding: 10px;
+    border-radius: 100px;
+  }
+}

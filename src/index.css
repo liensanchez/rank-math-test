@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'SFProDisplay-Semibold';
+}
+
+body{
+  background-color: #f5f7fa;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  color: var(--color-lightGray);
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  src: url('./assets/FontsFree-Net-SFProDisplay-Semibold.ttf') format('truetype');
+}
+
+.darkText{
+  color: var(--color-darkGray);
+}
+
+.lightText{
+  color: var(--color-lightGray);
+}
+
+.whiteText{
+  color: var(--color-lightWhite);
+}
+
+.redText{
+  color: red;
+}
+
+.icon{
+  font-size: x-large;
+}
+
+.selectedOption {
+  background-color: var(--color-lightGray);
+  color: var(--color-lightWhite);
+  padding: 10px;
+  border-radius: 100px;
+}
+
+:root {
+  --color-lightWhite: #ffffff; 
+  --color-darkWhite: #f5f7fa;
+  --color-lightGray: #aeb8c4;
+  --color-darkGray: #4c5968; 
+  --color-lighGold: #ffbd3b;
+  --color-darkGold: #ff9d22;
+  --color-lightBlue: #18b6fa;
+  --color-darkBlue: #1c81f3;
+  --color-lightMagenta: #fe5785;
+  --color-darkMagenta : #fc329a;
+  --color-green: #1ec070;
+  --color-chartBTC: #fff7ee;
+}

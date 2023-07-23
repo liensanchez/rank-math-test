@@ -1,0 +1,119 @@
+@media screen and (max-width: 767px){
+  .chartContainer{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    height: 20vh;
+  }
+
+  .chartLowerHigher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+  }
+
+  .lowerIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-lightMagenta);
+  }
+
+  .higherIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-green);
+  }
+
+  .btcIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: rgb(255,189,59);;
+    color: linear-gradient(180deg, rgba(255,189,59,1) 0%, rgba(255,157,34,1) 100%); 
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .chartContainer{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    overflow: hidden;
+  }
+
+  .chartLowerHigher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+  }
+
+  .lowerIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-lightMagenta);
+  }
+
+  .higherIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-green);
+  }
+
+  .btcIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: rgb(255,189,59);;
+    color: linear-gradient(180deg, rgba(255,189,59,1) 0%, rgba(255,157,34,1) 100%); 
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px){
+  .chartContainer{
+    height: 65vh;
+    margin: -50px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    overflow: hidden;
+  }
+
+  .chartLowerHigher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+  }
+
+  .lowerIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-lightMagenta);
+  }
+
+  .higherIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: var(--color-green);
+  }
+
+  .btcIco{
+    font-size: x-small;
+    padding-right: 5px;
+    color: rgb(255,189,59);;
+    color: linear-gradient(180deg, rgba(255,189,59,1) 0%, rgba(255,157,34,1) 100%); 
+  }
+
+  .chartCurrentPrice{
+    padding-top: 25px ;
+  }
+}
+

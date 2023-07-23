@@ -1,0 +1,174 @@
+@media screen and (max-width: 767px){
+  .tradeContainer{
+    margin: 30px 30px 50px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tradeBuySell{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .tradeBuySell:last-child {
+    margin-right: 0;
+  }
+  
+  .tradeBuySellContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttonBuy{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24,182,250);
+    background: linear-gradient(180deg, rgba(24,182,250,1) 0%, rgba(28,129,243,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  .buttonSell{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254,87,133);
+    background: linear-gradient(180deg, rgba(254,87,133,1) 0%, rgba(252,50,154,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .tradeContainer{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tradeBuySell{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .tradeBuySell:last-child {
+    margin-right: 0;
+  }
+  
+  .tradeBuySellContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttonBuy{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24,182,250);
+    background: linear-gradient(180deg, rgba(24,182,250,1) 0%, rgba(28,129,243,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  .buttonSell{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254,87,133);
+    background: linear-gradient(180deg, rgba(254,87,133,1) 0%, rgba(252,50,154,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px){
+  .tradeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -50px;
+  }
+
+  .tradeBuySell{
+    background-color: var(--color-lightWhite);
+    filter: drop-shadow(0px 59px 55.5px rgba(154,155,176,0.17));
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .tradeBuySell:last-child {
+    margin-right: 0;
+  }
+  
+  .tradeBuySellContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttonBuy{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24,182,250);
+    background: linear-gradient(180deg, rgba(24,182,250,1) 0%, rgba(28,129,243,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  .buttonSell{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254,87,133);
+    background: linear-gradient(180deg, rgba(254,87,133,1) 0%, rgba(252,50,154,1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  
+}
+ 
