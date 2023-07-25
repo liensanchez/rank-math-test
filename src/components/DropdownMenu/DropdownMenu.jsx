@@ -4,11 +4,18 @@ import './DropdownMenu.css';
 function DropdownMenu(props) {
   const { menuOpenClose, handleMenu } = props;
 
+  const handleMenuClick = () => {
+    if (window.innerWidth <= 1023) {
+      handleMenu();
+    }
+  };
+
+
   return (
     <>
       {menuOpenClose && (
         <div className="menuDropdownContainer"
-        onClick={() => handleMenu()}
+         onClick={() => handleMenuClick()} 
         >
           <div className="menuDropdownDisplay">
             <div className="menuDropdownOption">
